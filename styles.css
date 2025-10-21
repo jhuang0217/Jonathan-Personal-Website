@@ -1,0 +1,72 @@
+body { 
+    font-family: 'Times New Roman', Times, serif;
+    color: #54494B;
+    width: 85%;
+    margin: auto;
+}
+
+img {
+    border : 0.3rem solid #54494B;
+    border-radius: 10%;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #54494B;
+    border-radius: 90%;
+    margin: 1.5rem 0;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0.5rem;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    color: #156064;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+    padding-left: 0;
+}
+
+#jonathan {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+#jonathan img {
+    border-radius: 90%;
+    border: 0.5rem double;
+}
+
+.experience {
+    margin: 2rem;
+}
+
+#hobbies {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #54494B;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #156064;
+}
