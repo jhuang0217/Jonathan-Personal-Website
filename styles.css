@@ -1,4 +1,5 @@
 body { 
+    background-color: #DCD1D3;
     font-family: 'Times New Roman', Times, serif;
     color: #54494B;
     width: 85%;
@@ -35,14 +36,21 @@ nav ul {
 }
 
 #jonathan {
+    background-color: #8D818C;
     display: flex;
-    justify-content: space-around;
-    text-align: left;
+    align-items: center;      
+    justify-content: center;  
+    gap: 3rem;                 
+    text-align: center;        
 }
 
 #jonathan img {
     border-radius: 90%;
     border: 0.5rem double;
+}
+
+#about-me {
+    text-align: center;
 }
 
 .experience {
@@ -69,4 +77,26 @@ a {
 a:hover {
     text-decoration: underline;
     color: #156064;
+}
+footer {
+    background-color: #DCD1D3;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+}
+
+.contact-row {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 1.1rem;
+}
+
+.contact-row a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-row a:hover {
+    text-decoration: underline;
 }
